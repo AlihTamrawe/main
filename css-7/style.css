@@ -1,32 +1,50 @@
-.container{
-    width: 950px;
-    background-color: silver;
+.nav{
+    padding-top: 0;
+    margin: 0;
+    width: 80%;
+    background-color: rgb(107, 102, 102);
     margin: 0px auto;
+    height: 70px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+
 }
-.top-nav {
-    height: 150px;
-    background-color: green;
+.nav-title {
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    align-items: flex-start;
+    color: rgb(193, 204, 193);
 }
-.side-nav {
-    height: 300px;
-    width: 200px;
-    background-color: blue;
+.nav-links {
+    justify-content: center;
+    display:flex;
+    list-style-type:none;
+    justify-self:baseline;
+    padding: 5px;
+    padding-bottom:10px ;
+   
+
 }
-.main {
-    height: 400px;
-    width: 700px;
-    background-color: red;
+.nav-links a{
+    padding: 2px 5px 5px 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+   
 }
-.sub-content {
-    height: 200px;
-    width: 210px;
-    background-color: yellow;
-}
-#advertisement {
-    height: 120px;
-    width: 660px;
-    background-color: purple;
-}
-.row {
-    /* TODO - what should go here? */
+.nav-links .btn{
+    padding: 2px 5px 10px 5px;
+    margin: 3px 3px 3px 3px;
+    align-items: flex-end;
+  
+ border: 1px solid;
+
+ box-shadow: 2px 3px;
+ background-color: aqua;
+ width: 100px;
+ height: 30px;
+
 }
