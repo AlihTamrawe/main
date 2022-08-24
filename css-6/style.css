@@ -1,32 +1,61 @@
-.container{
-    width: 950px;
-    background-color: silver;
-    margin: 0px auto;
+
+
+.sub-content1  {
+    padding: 10px;
+    padding-left: 20%;
+    margin: 12px;
+    width: 40%;
+    height: 75%;
+    justify-self: start;
+    display: flex; 
+    justify-content: center;
+    justify-content: space-between;
+    background-color: rgb(202, 100, 155); 
 }
-.top-nav {
-    height: 150px;
-    background-color: green;
+.sub-content2 {
+    background-color: rgb(109, 165, 210); 
+    padding: 10px;
+    padding-left: 20%;
+    margin: 12px;
+    width: 40%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
 }
-.side-nav {
-    height: 300px;
+.f1{
+   
     width: 200px;
-    background-color: blue;
-}
-.main {
-    height: 400px;
-    width: 700px;
-    background-color: red;
-}
-.sub-content {
     height: 200px;
-    width: 210px;
-    background-color: yellow;
+    display: flex;
+     
 }
-#advertisement {
-    height: 120px;
-    width: 660px;
-    background-color: purple;
+.f2{
+     
+    width: 200px;
+    height: 200px;
+    display: flex;
+
 }
-.row {
-    /* TODO - what should go here? */
+.f3{
+ 
+    width: 200px;
+    height: 200px;
+    display: flex;
+
 }
+.f4{
+    
+    width: 200px;
+    height: 200px;
+    display: flex;
+
+}
+.f5{
+    
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+
