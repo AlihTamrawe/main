@@ -4,11 +4,13 @@
     width: 80%;
     background-color: rgb(107, 102, 102);
     margin: 0px auto;
-    height: 70px;
+    height: 65px;
+    
     justify-content: space-between;
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
+    align-items: center;
 
 }
 .nav-title {
@@ -18,12 +20,14 @@
     color: rgb(193, 204, 193);
 }
 .nav-links {
-    justify-content: center;
+     
     display:flex;
     list-style-type:none;
-    justify-self:baseline;
+    justify-content: center;
     padding: 5px;
     padding-bottom:10px ;
+    margin: auto;
+    padding-left: 100px;
    
 
 }
@@ -33,18 +37,25 @@
     text-decoration: none;
     color: #fff;
     padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
    
 }
-.nav-links .btn{
-    padding: 2px 5px 10px 5px;
-    margin: 3px 3px 3px 3px;
+.nav-links button{
+    
+    margin: 10px 5px 10px 5px;
     align-items: flex-end;
   
- border: 1px solid;
-
- box-shadow: 2px 3px;
+ border: 3px solid;
+ box-shadow: 2px 3px 1px 1px ;
  background-color: aqua;
- width: 100px;
+ width: 105px;
  height: 30px;
+ padding: 10px 24px;
+  text-align: center;
+  
+ 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
 
 }
