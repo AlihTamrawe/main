@@ -13,35 +13,64 @@
     margin: 2%;
     padding: 2px;
 
-}/*
+}
 .side-nav {
-    height: 300px;
+    height: 290px;
     width: 200px;
     background-color: blue;
+    margin: 2%;
+  
 }
 .main {
-    height: 400px;
-    width: 700px;
-    background-color: red;
+    background-color: red;  
+    position:absolute;
+    width:580px;
+    height:400px;   
+    margin: 10%;
+    left: 200px;
+    top:100px
+    
 }
 .sub-content1 {
-    height: 200px;
-    width: 210px;
+    display: inline-block;
+
+    height: 170px;
+    width: 158px;
     background-color: yellow;
+    margin: 1.8%;
+    position: absolute;
+    right: 0;
 }
 .sub-content2 {
-    height: 200px;
-    width: 210px;
+    display: inline-block;
+
+    height: 170px;
+    width: 158px;
     background-color: yellow;
+    margin: 1.8%;
+    position: absolute;
+    right: 33%; ;
 }
 .sub-content3 {
-    height: 200px;
-    width: 210px;
+    display: inline-block;
+
+    height: 170px;
+    width: 158px;
     background-color: yellow;
+    margin: 1.8%;
+    position: absolute  ; 
+    right: 68%;
+      
 }
 #advertisement {
-    height: 120px;
-    width: 660px;
+    height: 115px;
+    width: 555px;
     background-color: purple;
-}*/
+    top: 49%;
+    position: absolute;
+    margin: 2%;
+     padding: 10;
+    right: 4px;
+    
+}
 
