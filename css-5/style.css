@@ -1,14 +1,18 @@
 .container{
-    width: 950px;
+    width: 90%;
     background-color: silver;
     margin: 10px auto;
     height: 700px;
     position: fixed;
+    align-items: flex-start;
+    justify-content:space-between;
+    align-content: stretch;
 
 }
 
 .top-nav {
-    height: 150px;
+    display: flex;
+    height: 25%;
     background-color: green;
     margin: 2%;
     padding: 2px;
@@ -19,58 +23,70 @@
     width: 200px;
     background-color: blue;
     margin: 2%;
-  
+    position:absolute;
 }
 .main {
+    display: flex;
     background-color: red;  
     position:absolute;
-    width:580px;
-    height:400px;   
+    width:65%;
+    height:60%;   
     margin: 10%;
-    left: 200px;
-    top:100px
+    left: 18%;
+    top:20%;
+   
+    padding: 10px 30px 9px 9px;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-right: 35px;
+    padding-block-start: 10px;
     
 }
 .sub-content1 {
-    display: inline-block;
-
+    
+   
     height: 170px;
-    width: 158px;
+    width: 28%;
     background-color: yellow;
-    margin: 1.8%;
-    position: absolute;
-    right: 0;
+    padding-left: 10px;
+    
+    
+    
 }
 .sub-content2 {
-    display: inline-block;
-
+   
+   
     height: 170px;
-    width: 158px;
+    width: 28%;
     background-color: yellow;
-    margin: 1.8%;
-    position: absolute;
-    right: 33%; ;
+    padding-left: 10px;
+    vertical-align: super;
+  
+   
+    
 }
 .sub-content3 {
-    display: inline-block;
-
+    
+    
     height: 170px;
-    width: 158px;
+    width: 28%;
     background-color: yellow;
-    margin: 1.8%;
-    position: absolute  ; 
-    right: 68%;
+    padding-left: 10px;
+   
+   
       
 }
 #advertisement {
     height: 115px;
-    width: 555px;
+    width: 92%;
     background-color: purple;
     top: 49%;
     position: absolute;
     margin: 2%;
-     padding: 10;
-    right: 4px;
+   
+margin-right: 2%; 
+    
+
     
 }
 
