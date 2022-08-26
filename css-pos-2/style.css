@@ -1,64 +1,160 @@
 
 .container{
      
-    align-content: center;
-    justify-content:center ;
+    align-content: space-around;
+    justify-content:space-around ;
     display: flex;
-    margin: 50px;
-    padding-left: 50px;
+    margin: 20px;
+    padding-left: 30px;
      
 } 
 .protfile
 {
 
-    background-color: aliceblue;
-    align-self: center;
-    justify-self:center ;
-    width: 500px;
-    height: 380px;
-    margin: 20px;
-    padding-right: 50px;
-   
     position: relative;
+    background-color: aliceblue;
+    align-self: flex-start;
+    justify-self:center ;
+    width: 450px;
+    height: 390px;
+    margin: 20px;
 }
 
+.d11
+{
+    height: 37%;
+    width: 97.5%;
+    background-color: gray;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+.d11 p
+{
+    background-color: #fff;
+    border-radius:50% ;
+}
+.d11 p:nth-last-child(1)
+{
+    background-color: gray;
+    text-align: center  ;
+    font-size: 15px;
+    margin-left: 0.7%;
+    margin-right: 10%;
+}
+.d114 
+{
+    height: 37%;
+    width: 97.5%;
+    background-color: gray;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+.d114 p:nth-last-child(1) {
+    text-align: center;
+    font-size: 15px;
+    background-color: gray;
+    margin-left: 0.7%;
+    margin-right: 10%;
+}
+.d114 p
+{
+    background-color: #fff;
+    border-radius:50% ;
+}
+.d113
+{
+    height: 37%;
+    width: 97.5%;
+    background-color: gray;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+.d113 p:nth-last-child(1){
+    text-align: center;
+    font-size: 15px;
+    margin-left: 0.7%;
+    margin-right: 10%;
+    background-color: gray;
+}
+.d113 p:nth-last-child(1){
+    text-align: center;
+    font-size: 15px;
+    margin-left: 0.7%;
+    margin-right: 10%;
+    background-color: gray;
+}
+
+
   .d21{
-     
-    height: 30%;
-    width: 100%;
-    
-    background-color: blue;
-    left: 10px; 
-     
+    height: 65%;
+    width: 98.8%;
+    padding-top: 1px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-bottom: 3px solid rgb(183, 183, 183);
+    border-left: 3px solid rgb(183, 183, 183);
+    border-right: 3px solid rgb(183, 183, 183);
+    display: flex;
+    flex-direction: column;
    
 } 
-  .i1{
    
-       
-      
-         padding: 17px 0px 10px 15px;
-         margin: 2%;
-    
-         margin-right: 0px;
-        
-     
-        width: 70px;
-        height: 70px;
-    
+.i1
+{
+    padding-right: 5px;
+    align-self: center;
+    width: 20px;
+    height: 20px;
+}
+.i2{
+    padding-right: 5px;
+    align-self: center;
+    width: 20px;
+    height: 20px;
+}
+.d22{
+    padding-left: 10px;
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.d22 p {
+    font-size: 15px;
+    font-family: cursive;
+    width: 60px;
+    padding-left:1px ;
+}
+.d33 p {
+    font-size: 15px;
+    font-family: cursive;
+    width: 60px;
+    padding-left:1px ;
+}
+.d33
+{
+    padding-left: 10px;
+    width: 100%;
+    height: 50%;    
+    display: flex;
 }
 .protfile2
 {
-
-     
-    align-self: center;
+    align-self: flex-end;
     justify-self:flex-end ;
     width: 290px;
     height: 190px;
     margin: 20px;
-    
-   
-    position: relative;
+    position: absolute;
+    left: 75%;
+    top:10%
 }
+
 .d1{
      
     height: 30%;
@@ -66,34 +162,30 @@
     
     background-color: gray;
     left: 10px; 
-     
-   
 }   
+
 .img1{
-   
         position:absolute;
-        bottom: 300px;
-         
-        top:68px;
-        left:65px;
+        bottom: 30%px;
+        top:15%;
+        left:15%;
         border: 5px solid white;
-       
         padding: 0px;
         border-radius: 50%;
-        width: 100px;
-        height: 100px;
-    
+        width: 26%;
+        height: 26%;
 }
 .d2
 {
-    height: 70%;
-    width: 100%;
+   
+    height: 65%;
+    width: 98.8%;
     padding-top: 19px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-bottom:0px;
     border-bottom: 3px solid rgb(183, 183, 183);
     border-left: 3px solid  rgb(183, 183, 183);
     border-right: 3px solid rgb(183, 183, 183);
-    background-color:white ;
     align-content: space-around;
     
 }
@@ -102,15 +194,16 @@ div .st
     height: 40px;
 }
 .st{
-    width: 500px;
+    width: 67%;
     height: 40px;
     padding-bottom: 0;
-   
     display: flex;
     padding: 7px;
     margin: 5px;
     justify-self: start;
+    margin-top: 0px;
 }
+
     .st h2{
         padding-top: 31px;
         justify-content: start;
@@ -142,22 +235,23 @@ p
 }
 
 .st .img2 {
+    position: relative;
     padding: 15px 0px 15px 15px;
     margin: 2%;
-     
-    width: 12px;
-    height: 18px;
+    width: 6%;
+    height: 47%;
 }
 div .d2{
     padding:0px ;
+    margin-top:0px ;
 }
 .st .img3 {
-     
-    padding: 17px 0px 10px 15px;
+    padding: 17px 0px 0px 14px;
     margin: 2%;
     width: 16px;
     height: 14px;
     margin-right: 0px;
+    margin-top: 10px;
 }
 a{
     text-decoration: underline;
@@ -165,28 +259,19 @@ a{
     margin-left: 2px;
 }
 #q2{
-    width: 440px;
-    height: 40px;
+    width: 120%;
+    height: 5%;
     padding-left: 20px;
     padding-right: 15px;
-   padding-top: 1px;
-   padding-bottom: 1px;
-
+    padding-top: 1px;
+    padding-bottom: 1px;
     display: flex;
-    
-    margin: 2px ;
+    margin: 2px;
     justify-self: start;
+    font-size: 14px;
 
 }
-    h2{
-        justify-content: start;
-    font-size: 32;
-    color: black;
-    padding: 15px;
-    margin: 2%;
-    
-    font-family:cursive; 
-}
+
 #q1{
     width: 500px;
     height: 40px;
@@ -260,6 +345,164 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 display: flex;
 
 }
+
+ 
+.protfile2 .d22  
+{
+    margin-left: 50px;
+padding-left: 30px;
+display: flex;
+width: 100%;
+height: 50%;
+justify-content: space-evenly;
+
+}
+.protfile2 .d33  
+{
+    margin-left: 50px;
+padding-left: 30px;
+display: flex;
+width: 100%;
+height: 50%;
+justify-content: space-evenly;
+
+}
+ 
+
+.protfile3 .d21{
+
+    height: 65%;
+    width: 98.8%;
+    padding-top: 1px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-bottom: 3px solid rgb(183, 183, 183);
+    border-left: 3px solid rgb(183, 183, 183);
+    border-right: 3px solid rgb(183, 183, 183);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.d22 p:nth-child(3){
+    text-align: center  ;
+    font-size: 15px;
+    background-color: rgb(119, 119, 119);
+    border-radius:60% ;
+    margin-left: 10%;
+    margin-right: 70%;
+}
+.d33 p:nth-child(3){
+    text-align: end  ;
+    font-size: 15px;
+    background-color: rgb(119, 119, 119);
+    border-radius:60% ;
+    margin-left: 10%;
+    margin-right: 70%;
+
+}
+.protfile3 .d33 p {
+    width: 70%;
+    height: 30px;
+    padding-bottom: 0;
+    display: flex;
+    padding: 2px;
+    margin: 5px;
+    justify-self: start;
+    margin-top: 0px;
+    color:grey;
+}
+.protfile3 .d21 
+{
+    width: 98;
+}
+.protfile3 .d22 p {
+
+    width: 70%;
+    height: 30px;
+    padding-bottom: 0;
+    display: flex;
+    padding: 2px;
+    margin: 5px;
+    justify-self: start;
+    margin-top: 0px;
+}
+.protfile3
+{
+
+     
+   
+    width: 470px;
+    height: 190px;
+    margin: 20px;
+    position: absolute;
+    left:34%;
+    bottom: 6%;
+    display:flex; 
+    flex-direction: column;
+}
+.protfile4
+{
+
+     
+    align-self: flex-end;
+    justify-self:flex-end ;
+    width: 290px;
+    height: 220px;
+    margin: 20px;
+    position: absolute;
+    left: 75%;
+    bottom: 26%;
+    justify-content: space-evenly;
+    
+}
+
+.protfile4 .d22 {
+         margin: 1px;
+         padding: 1px;
+         height: 25px;
+}
+.protfile4 .d33 {
+    margin: 1px;
+    padding: 1px;
+    height: 25px;
+
+}
+.protfile4 .d22 p {
+    margin: 1px;
+    padding: 1px;
+   
+
+}
+.protfile4 .d33 p {
+    margin: 1px;
+    padding: 1px;
+    
+  
+
+}
+.protfile4 .d21 
+{
+    height: 70%;
+  padding-left: 10px;
+
+}
+.d211 
+{
+    height: 25%;
+    width: 98.8%;
+    padding-top: 1px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-bottom: 3px solid rgb(183, 183, 183);
+    border-left: 3px solid rgb(183, 183, 183);
+    border-right: 3px solid rgb(183, 183, 183);
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    color: aqua;
+}
+
 
 
 
