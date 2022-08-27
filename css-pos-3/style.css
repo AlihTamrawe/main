@@ -1,72 +1,133 @@
 
 .nav{
-    padding-top: 0;
-    margin: 0;
-    width: 80%;
-    background-color: rgb(107, 102, 102);
-    margin: 0px 0px 0px 0px;
-    height: 65px;
+  
     
-    justify-content: space-between;
+    background-color: rgb(76, 124, 201);
+    margin: 12px;
+    width: 750px;
+    position: absolute;
     display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-    align-items: center;
-    width: 100%;
-
+    justify-content: space-around;
+    left: 17%;
+    top: 18%;
+    border-radius: 5PX;
 }
 .nav-title {
-    padding: 5px 5px 5px 5px;
-    margin: 5px;
+  
+  
     align-items: flex-start;
     color: rgb(193, 204, 193);
 }
 .nav-links {
-     
+    width: 100%;    
     display:flex;
     list-style-type:none;
-    justify-content: center;
-    padding: 5px;
-    padding-bottom:10px ;
-    margin: 0px 0px 0px 100px;
-    padding-left: 100px;
+    
+    justify-content: space-evenly;
+    padding-left: 2;
+    
    
 
 }
 .nav-links a{
-    padding: 2px 5px 5px 5px;
+    
     margin: 5px;
     text-decoration: none;
     color: #fff;
     padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
+    width:19%;
    
 }
-.nav-links button{
-    
-    margin: 10px 5px 10px 5px;
-    align-items: flex-end;
   
- border: 3px solid;
- box-shadow: 2px 3px 1px 1px ;
- background-color: aqua;
- width: 105px;
- height: 30px;
- padding: 10px 24px;
-  text-align: center;
-  
- 
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-display: flex;
-
-}
-
- 
- 
 
 
 body {
-    display: block;
-    margin: 0px;
+    width: 970px;
+    background-color:#034f84;
+    display: flex   ;
 }
+.im1
+{
+    display: flex;
+    position: absolute;
+    width: 117px;
+    height: 122px;
+    left:5%;
+    top: 2%;
+    
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12) ;
+    min-height: 20px;
+    margin: 10px auto; 
+    border-radius: 5px;
+    flex-direction:row ;
+}
+ 
+.value p
+{
+      position: absolute;
+    display: flex;
+    width: 179px;
+    height: 16px;
+    right: 1%;
+    top: 0%;
+    justify-content: space-around;
+}
+
+footer 
+{
+    width: 99%;
+    height:8%;
+    position: absolute;
+    display:flex ;
+    background-color: #426d8b;
+    justify-content: space-around;
+    bottom:0%;
+
+}
+.mid{
+    
+    width: 99%;
+    height:22%;
+    position: fixed;
+    display:flex ;
+    background-color: #e1e7eb;
+    justify-self: center;
+    align-self: center;
+    bottom: 12%;
+      font-size: 12px;
+
+}
+.ex2{
+    
+    width: 99%;
+    height:38%;
+    position: fixed;
+    display:flex ;
+    justify-self: start;
+    align-self: flex-start;
+    bottom: 32%;
+ 
+   
+
+}
+.utop {
+    color: beige;
+    
+    font-size: 17px;
+}
+
+ 
+.utop li{
+    list-style: "\00BB";
+}
+
+ 
+ 
