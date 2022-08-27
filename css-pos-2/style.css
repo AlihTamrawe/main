@@ -232,6 +232,7 @@ p
     padding:10px ;
     margin: 2%;
     margin-left: 2px;
+    border-radius: 50%;
 }
 
 .st .img2 {
@@ -240,6 +241,8 @@ p
     margin: 2%;
     width: 6%;
     height: 47%;
+    border: 5px solid white;
+    border-radius: 50%;
 }
 div .d2{
     padding:0px ;
@@ -252,6 +255,8 @@ div .d2{
     height: 14px;
     margin-right: 0px;
     margin-top: 10px;
+    border: 5px solid white;
+    border-radius: 50%;
 }
 a{
     text-decoration: underline;
@@ -347,26 +352,7 @@ display: flex;
 }
 
  
-.protfile2 .d22  
-{
-    margin-left: 50px;
-padding-left: 30px;
-display: flex;
-width: 100%;
-height: 50%;
-justify-content: space-evenly;
-
-}
-.protfile2 .d33  
-{
-    margin-left: 50px;
-padding-left: 30px;
-display: flex;
-width: 100%;
-height: 50%;
-justify-content: space-evenly;
-
-}
+ 
  
 
 .protfile3 .d21{
@@ -390,7 +376,7 @@ justify-content: space-evenly;
     background-color: rgb(119, 119, 119);
     border-radius:60% ;
     margin-left: 10%;
-    margin-right: 70%;
+    margin-right: 10%;
 }
 .d33 p:nth-child(3){
     text-align: end  ;
@@ -398,8 +384,55 @@ justify-content: space-evenly;
     background-color: rgb(119, 119, 119);
     border-radius:60% ;
     margin-left: 10%;
-    margin-right: 70%;
+    margin-right: 41%;
 
+}
+.d33 p:nth-child(4){
+    text-align: center  ;
+    font-size: 15px;
+    background-color: rgb(119, 119, 119);
+    border-radius:50% ;
+    
+
+}
+.protfile2  div .d21
+{
+margin-left:1px ;
+padding-left:1px ;
+}
+.d22 p:nth-child(4){
+    text-align: center  ;
+    font-size: 15px;
+    background-color: rgb(119, 119, 119);
+    border-radius:50% ;
+    
+
+}
+.protfile2 .d22 {
+    margin-left: 1px;
+    padding-left: 10px;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+}
+.protfile2 .d33 p:nth-last-child{
+    margin-left: 1px;
+    padding-left: 10px;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    flex-direction: row;
+
+}
+.protfile2 .d22 p:nth-child {
+    margin-left: 1px;
+    padding-left: 10px;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    flex-direction: row;
+    border-radius: 50%;
 }
 .protfile3 .d33 p {
     width: 70%;
@@ -504,7 +537,11 @@ justify-content: space-evenly;
 }
 
 
-
+img 
+{
+    border: 5px solid white;
+    border-radius: 50%;
+}
 
 
 
