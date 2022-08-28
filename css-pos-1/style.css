@@ -1,5 +1,5 @@
 .container{
-    width: 970px;;
+    width: 67%;
     height: 400px;;
     align-content: center;
     justify-content:center ;
@@ -19,7 +19,7 @@
     margin: 18px;
     display: flex;
    
-    position: relative;
+    position: fixed;
 }
 .d1{
      
@@ -29,18 +29,21 @@
     background-color: rgb(67, 184, 242);
     left: 10px; 
     justify-self: center;
-     
-   
+    position: sticky;
+
 }   
 .d1 .img1 {
     position: absolute;
-    top: 27%;
-    left: 25%;
+    top: 65%;
+    left: 10%;
     border: 5px solid white;
     padding: 0px;
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    justify-self: center;
+    align-self: center;
+    flex-grow: initial;
 
 }
 .d2
