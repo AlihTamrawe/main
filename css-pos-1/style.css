@@ -17,7 +17,7 @@
     width: 80%;
     height: 100%;
     margin: 18px;
-    
+    display: flex;
    
     position: relative;
 }
@@ -25,9 +25,10 @@
      
     height: 40%;
     width: 100%;
-    
+    display: flex;
     background-color: rgb(67, 184, 242);
     left: 10px; 
+    justify-self: center;
      
    
 }   
@@ -36,22 +37,24 @@
     top: 27%;
     left: 25%;
     border: 5px solid white;
-    padding: 1px;
+    padding: 0px;
     border-radius: 50%;
     width: 100px;
     height: 100px;
+
 }
 .d2
 {
     height: 70%;
     width: 98.8%;
+    padding:0px;
     margin-top: 1px;
     border-bottom: 3px solid rgb(183, 183, 183);
     border-left: 3px solid  rgb(183, 183, 183);
     border-right: 3px solid rgb(183, 183, 183);
     background-color:white ;
     align-content: space-around;
-    
+    justify-self: center;
 }
 
 .st{
