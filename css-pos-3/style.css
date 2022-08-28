@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
 
 .nav{
   
@@ -7,10 +18,11 @@
     width: 750px;
     position: absolute;
     display: flex;
-    justify-content: space-around;
-    left: 17%;
+    justify-content: center;
+    left: 29%;
     top: 18%;
     border-radius: 5PX;
+
 }
 .nav-title {
   
@@ -62,7 +74,7 @@ body {
 
 .value 
 {
-    flex: inline;
+    justify-content: inline;
 }
 .value p
 {
