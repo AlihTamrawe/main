@@ -30,15 +30,13 @@
      
    
 }   
-.img1{
+.d1 .img1{
    
         position:absolute;
         bottom: 100px;
-         
         top:68px;
         left:65px;
         border: 5px solid white;
-       
         padding: 0px;
         border-radius: 50%;
         width: 100px;
@@ -103,22 +101,23 @@ p
 }
 
 .st .img2 {
+    position: relative;
     padding: 15px 0px 15px 15px;
     margin: 2%;
-     
-    width: 12px;
-    height: 18px;
+    width: 6%;
+    height: 47%;
 }
 div .d2{
     padding:0px ;
 }
 .st .img3 {
-     
-    padding: 17px 0px 10px 15px;
+    position: relative;
+    padding: 15px 0px 15px 15px;
     margin: 2%;
-    width: 16px;
-    height: 14px;
-    margin-right: 0px;
+    width: 6%;
+    height: 47%;
+    
+
 }
 a{
     text-decoration: underline;
@@ -130,14 +129,11 @@ a{
     height: 40px;
     padding-left: 20px;
     padding-right: 15px;
-   padding-top: 1px;
-   padding-bottom: 1px;
-
+    padding-top: 1px;
+    padding-bottom: 1px;
     display: flex;
-    
     margin: 2px ;
     justify-self: start;
-
 }
     h2{
         justify-content: start;

@@ -14,14 +14,16 @@
   
     
     background-color: rgb(76, 124, 201);
-    margin: 12px;
-    width: 750px;
+    margin: 2px;
+    width: 77%;
     position: absolute;
     display: flex;
     justify-content: center;
-    left: 29%;
-    top: 18%;
-    border-radius: 5PX;
+    left: 19%;
+    top: 16%; 
+    box-shadow: 4px 2px 2px 0px solid black;
+    border-radius: 9PX;
+ 
 
 }
 .nav-title {
@@ -53,6 +55,47 @@
    
 }
   
+
+
+.headbtn
+{
+    background-color: rgb(70, 68, 68);
+    
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 75px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    right: 7%;
+    top: 4%;
+    border-radius: 13px;
+    padding: auto;
+
+}
+.headbtn button 
+{
+    padding-right: 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(65, 106, 183);
+    color: white;
+    box-shadow:   2px 3px #e7e1e1;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.headbtn input 
+{
+    font-size: 15px;
+    text-align: center;
+    padding-left: 2px;
+    width: 120px;
+    height: 40px;
+}
 
 
 body {
@@ -135,5 +178,5 @@ footer
     list-style: "\00BB";
 }
 
- 
+
  

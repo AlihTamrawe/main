@@ -241,8 +241,7 @@ p
     margin: 2%;
     width: 6%;
     height: 47%;
-    border: 5px solid white;
-    border-radius: 50%;
+
 }
 div .d2{
     padding:0px ;
@@ -255,8 +254,7 @@ div .d2{
     height: 14px;
     margin-right: 0px;
     margin-top: 10px;
-    border: 5px solid white;
-    border-radius: 50%;
+
 }
 a{
     text-decoration: underline;
@@ -534,28 +532,4 @@ padding-left:1px ;
     flex-direction: column;
     padding-left: 10px;
     color: aqua;
-}
-
-
-img 
-{
-    border: 5px solid white;
-    border-radius: 50%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-body {
-    display: block;
-    margin: 0px;
 }
