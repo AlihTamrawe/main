@@ -1,0 +1,284 @@
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+}
+.top-nav {
+    height: 150px;
+    background-color: green;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+}
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+}
+.row {
+    /* TODO - what should go here? */
+}
+
+
+/* python */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+.nav{
+  
+    
+    background-color: rgb(76, 124, 201);
+    margin: 2px;
+    width: 77%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 19%;
+    top: 16%; 
+    box-shadow: 4px 2px 2px 0px solid black;
+    border-radius: 9PX;
+ 
+
+}
+.nav-title {
+  
+  
+    align-items: flex-start;
+    color: rgb(193, 204, 193);
+}
+.nav-links {
+    width: 100%;    
+    display:flex;
+    list-style-type:none;
+    
+    justify-content: space-evenly;
+    padding-left: 2;
+    
+   
+
+}
+.nav-links a{
+    
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width:19%;
+   
+}
+  
+
+
+.headbtn
+{
+    background-color: rgb(70, 68, 68);
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    right: 3.5%;
+    top: 4.5%;
+    border-radius: 13px;    
+    box-shadow: 0px -0.5px 2px 0px  #0a0a0a;
+
+}
+.headbtn button 
+{
+  
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(65, 106, 183);
+    color: white;
+    box-shadow: -1px -1px 1px 0px  #e7e1e1;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.headbtn input 
+{
+    border: 1px black;
+    font-size: 15px;
+    text-align: center;
+    padding-left: px;
+    width: 184px;
+    height: 40px;
+}
+
+
+body {
+    width: 970px;
+    background-color:#034f84;
+    display: flex   ;
+}
+.im1
+{
+    display: flex;
+    position: absolute;
+    width: 117px;
+    height: 122px;
+    left:5%;
+    top: 2%;
+    
+    
+}
+
+.value 
+{
+    justify-content: inline;
+}
+.value p
+{
+      position: absolute;
+    display: flex;
+    width: 179px;
+    height: 16px;
+    right: 5%;
+    top: 0%;
+    justify-content: space-around;
+}
+
+footer 
+{
+    width: 99%;
+    height:8%;
+    position: absolute;
+    display:flex ;
+    background-color: #426d8b;
+    justify-content: space-around;
+    bottom:0%;
+
+}
+.mid{
+    
+    width: 99%;
+    height:22%;
+    position: fixed;
+    display:flex ;
+    background-color: #e1e7eb;
+    justify-self: center;
+    align-self: center;
+    bottom: 12%;
+      font-size: 12px;
+
+}
+.ex2{
+    
+    width: 99%;
+    height:38%;
+    position: absolute;
+    display:flex ;
+    justify-self: center;
+    align-self:baseline;
+    bottom: 32%;
+    justify-content: space-evenly;
+    left:10%;
+ 
+   
+
+}
+.utop {
+    color: beige;
+    justify-self:center;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+ 
+.utop li{
+    list-style: "\00BB";
+    text-decoration: underline;
+margin-right:10px ;}
+
+.upar
+{
+    text-align:center;
+    margin-left: 40px;
+    height: 70px;
+    font-size: 15px;
+    width:580px ;
+
+}
+.upar h2
+{
+    color: gold;
+    font-style: oblique;
+}
+
+.mid
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.mid1
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+#r1
+{
+    padding-top: 5px;
+    height: 3px;
+    border-radius:5px;
+    margin-top: 10px;
+    justify-self: stretch;
+    width: 100%;
+   
+    background-color: #89c4ed;
+    margin-left: 17px;
+}
+ 
+.umid
+{
+    margin-left: 5px;
+    font-size: 12px;
+    color: rgb(45, 111, 218);
+    width: 150px; ;
+    text-align: center;
+    margin-left: 70px;
+    
+
+}
+
+.mid1 p 
+{
+    text-align: center;
+    width: 500px;
+}
